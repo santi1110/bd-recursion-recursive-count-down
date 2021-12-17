@@ -1,9 +1,5 @@
 ### Recursive Count Down
 
-**Branch name:** recursion-prework
-**RDE workflows:**
-- `recursion-prework`
-
 Expected time required: 10 min
 
 Now that we've gone through the steps to determine our base case and recursion cases, let's go ahead and write the 
@@ -26,10 +22,13 @@ In this activity, you will need to:
    the recursive method. You may want to modify that main method to
    test other values in your recursive method.
 1. After verifying that `RecursionPractice` gives the expected results,
-   make sure that the `recursion-prework` RDE workflow is passing,
+   make sure that the `RecursiveCountDownTest` file is passing,
    then commit and push your changes.
 
 HINT:
+
 * [What do I give to the method during recursion?](./hints/hint-01.md)
+
 * [What should my Base Case do?](./hints/hint-02.md)
+
 * [How do I combine the return from each recursive call?](./hints/hint-03.md)
