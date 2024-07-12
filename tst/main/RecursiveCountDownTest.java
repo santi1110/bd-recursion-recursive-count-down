@@ -1,5 +1,6 @@
-package com.amazon.ata.recursion.prework;
+package main;
 
+import main.RecursiveCountDown;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -10,7 +11,7 @@ public class RecursiveCountDownTest {
     private RecursiveCountDown recursiveCountDown;
 
     @BeforeEach
-    private void setup() {
+    public void setup() {
         recursiveCountDown = new RecursiveCountDown();    
     }
 

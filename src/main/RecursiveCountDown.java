@@ -1,4 +1,4 @@
-package com.amazon.ata.recursion.prework;
+package main;
 
 public class RecursiveCountDown {
 
@@ -9,7 +9,10 @@ public class RecursiveCountDown {
      * @return - this is a String that has combined all the numbers from target down to 0.
      */
     public String countDown(int target) {
+        if (target == 0){
+            return  "0";
+        }
         //PARTICIPANTS: replace this placeholder line with your implementation
-        return Integer.toString(-1);
+        return target + countDown(target-1);
     }
 }
